@@ -49,9 +49,7 @@ export default function Header() {
             <img
               src="https://qotdwocbcoirjlqjkjhq.supabase.co/storage/v1/object/imagens.website.creation/ad5c31a2-f045-4f97-a0ab-2d4f0e6a69e7/logo_1754848512558_0.png"
               alt="Teste Construção Civil"
-              className={`h-12 w-auto transition-all duration-300 ${
-                isScrolled ? 'brightness-100' : 'brightness-0 invert'
-              }`}
+              className="h-12 w-auto transition-all duration-300"
             />
           </motion.div>
 
